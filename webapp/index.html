@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Make Your Order</title>
+    <link rel="icon" href="assets/img/hg-logo.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Company" content="Haksya Global SDN BHD">
+    <meta name="webapp name" content="Make your order">
+    <meta name="front end developer" content="Sankar Ganesh">
+    <meta name="back end developer" content="kavya">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
+</head>
+
+<body>
+    <div class="header">
+        <center>
+            <table>
+                <tr>
+                    <td><img src="assets/img/hg-logo.png"></td>
+                    <td>
+                        <h1>HAKSYA GLOBAL SDN BHD</h1>
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </div>
+    <div class="row">
+        <div class="column">
+            <!-- Salesman Login -->
+            <form method="POST" action="login.php">
+                <center>
+                    <h1>Salesman login</h1>
+                </center>
+                <div class="imgcontainer">
+                    <img src="assets/img/salesman_logo.png" alt="salesman" class="avatar">
+                </div>
+                <div class="container">
+                    <label for="uname"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+                    <button type="submit" name="Salesmamlogin">login</button>
+                </div>
+            </form>
+        </div>
+        <div class="column">
+             <!-- Admin Login -->
+            <form  method="POST" action="login.php">
+               
+                <center>
+                    <h1>Admin login</h1>
+                </center>
+                <div class="imgcontainer">
+                    <img src="assets/img/admin_logo.png" alt="salesman" class="avatar">
+                </div>
+                <div class="container">
+                    <label for="uname"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+                    <button type="submit" name="Adminlogin">login</button>
+                </div>
+            </form>
+        </div>
+        <div class="column">
+            <!-- Shop Login -->
+            <form  method="POST" action="login.php">
+                
+                <center>
+                    <h1>Shop login</h1>
+                </center>
+                <div class="imgcontainer">
+                    <img src="assets/img/customer_logo.png" alt="salesman" class="avatar">
+                </div>
+                <div class="container">
+                    <label for="uname"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+                    <button type="submit" name="Shoplogin">login</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
